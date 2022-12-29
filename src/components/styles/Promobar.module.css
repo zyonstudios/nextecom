@@ -1,0 +1,55 @@
+.promobar{  
+    width: 300vw;  
+    margin: 0;
+    height: 25px;
+    background-color: rgb(224, 224, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    position: absolute;    
+    animation-name: promomove;
+    animation: promomove 5s infinite;
+    animation-duration: 20s;
+}
+.slide{   
+    width: 100vw;
+    font-size: medium;
+    text-align: center;    
+}
+@keyframes promomove{
+    0%   {left:0}
+    30%  {left:0;}
+    35%  {left:-100vw;}
+    65%  {left:-100vw;}
+    70%  {left:-200vw;}
+    95%  {left:-200vw;}
+    100% {left:0}
+}
+@-o-keyframes promomove{
+    0%   {left:0}
+    30%  {left:0;}
+    35%  {left:-100vw;}
+    65%  {left:-100vw;}
+    70%  {left:-200vw;}
+    95%  {left:-200vw;}
+    100% {left:0}
+}
+@-moz-keyframes promomove{
+    0%   {left:0}
+    30%  {left:0;}
+    35%  {left:-100vw;}
+    65%  {left:-100vw;}
+    70%  {left:-200vw;}
+    95%  {left:-200vw;}
+    100% {left:0}
+}
+@-webkit-keyframes promomove{
+    0%   {left:0}
+    30%  {left:0;}
+    35%  {left:-100vw;}
+    65%  {left:-100vw;}
+    70%  {left:-200vw;}
+    95%  {left:-200vw;}
+    100% {left:0}
+}

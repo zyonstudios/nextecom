@@ -1,0 +1,60 @@
+.slider{
+    width: 200vw;  
+    margin: 0;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    position: absolute;    
+    animation-name: dtbannermove;
+    animation: dtbannermove 5s infinite;
+    animation-duration: 20s; 
+}
+.slide{
+    width:100vw;
+    position: relative;   
+}
+
+@keyframes dtbannermove{
+    0%   {left:0}
+    45%  {left:0;}
+    50%  {left:-100vw;}
+    95%  {left:-100vw;}    
+    100% {left:0}
+}
+@-o-keyframes dtbannermove{
+    0%   {left:0}
+    45%  {left:0;}
+    50%  {left:-100vw;}
+    95%  {left:-100vw;}    
+    100% {left:0}
+}
+@-moz-keyframes dtbannermove{
+    0%   {left:0}
+    45%  {left:0;}
+    50%  {left:-100vw;}
+    95%  {left:-100vw;}    
+    100% {left:0}
+}
+@-webkit-keyframes dtbannermove{
+    0%   {left:0}
+    45%  {left:0;}
+    50%  {left:-100vw;}
+    95%  {left:-100vw;}    
+    100% {left:0}
+}
+.links{
+    width:100vw;    
+    height:50px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 30px;
+    z-index: 5;
+}
+.links button{
+    padding:8px 16px;
+    border:1px solid white;
+    background-color: white;
+    color:#000000;
+}
