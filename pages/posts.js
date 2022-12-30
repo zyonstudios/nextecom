@@ -1,7 +1,7 @@
 import { gql } from '@apollo/client'
 import React from 'react'
-import Postcard from '../components/Postcard'
-import { client } from '../lib/apollo'
+import Postcard from '../src/components/Postcard'
+import { client } from '../src/apollo/apollo'
 import styles from '../styles/Posts.module.css'
 
   

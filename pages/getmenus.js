@@ -1,6 +1,7 @@
 import { gql } from '@apollo/client';
 import React from 'react';
-import { client } from '../lib/apollo';
+import { client } from '../src/apollo/apollo';
+
 
 
 const getmenus = ({menuItems}) => {

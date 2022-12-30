@@ -1,6 +1,6 @@
 import { gql } from '@apollo/client';
-import { client } from '../lib/apollo';
-import styles from '../styles/Posts.module.css';
+import { client } from '../src/apollo/apollo';
+import styles from '../src/components/styles/Posts.module.css';
 
 
 

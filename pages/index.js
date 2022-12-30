@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { Inter } from '@next/font/google';
-import { GET_DEV_MENUS, GET_HOME_PAGE_QUERIES } from '../src/queries/get-menus';
+import { GET_HOME_PAGE_QUERIES } from '../src/queries/get-menus';
 import { client } from '../src/apollo/apollo';
 import Layout from '../src/components/layouts';
 
