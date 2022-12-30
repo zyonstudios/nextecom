@@ -1,5 +1,4 @@
 import { Inter } from '@next/font/google'
-
 import { useEffect, useState } from 'react'
 import WooCommerceRestApi from '@woocommerce/woocommerce-rest-api'
 
