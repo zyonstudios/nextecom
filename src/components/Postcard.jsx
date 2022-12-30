@@ -1,4 +1,4 @@
-import styles from '../styles/Postcard.module.css';
+import styles from '../components/styles/Postcard.module.css';
 import Link from "next/link";
 
 
