@@ -1,3 +1,8 @@
 .header{
     background-color: aquamarine;
 }
+.midheader{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
