@@ -1,6 +1,7 @@
 import { Inter } from '@next/font/google'
 import { useEffect, useState } from 'react'
 import WooCommerceRestApi from '@woocommerce/woocommerce-rest-api'
+import Image from 'next/image';
 
 const api = new WooCommerceRestApi({
   url: "https://devalop.co.uk",
@@ -40,7 +41,12 @@ export default function Home() {
           {products.map((product, index) => {
             return (
               <div key={index} > 
-                  <img src={product.images[0].src} width="100%"/>                             
+                  <Image
+                   src={product.images[0].src}
+                   width="500"
+                   height="500"
+                   layout="responsive"  
+                   />                             
                   <h2>{product.name}</h2>
                   <h2>£{product.regular_price}</h2>
                   <br/> <br/> <br/>        
