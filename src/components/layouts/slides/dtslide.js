@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../../styles/Slider.module.css';
 
@@ -6,8 +7,15 @@ const Dtslide = ({slides}) => {
     <div className={styles.slider}>
         {slides.map((slide)=>{
             return( 
-                <div className={styles.slide}>            
-                    <img src={slide.dtSlider.sliderImage.sourceUrl} alt="" width="100%" />
+                <div className={styles.slide}> 
+
+                    <Image 
+                     src={slide.dtSlider.sliderImage.sourceUrl} 
+                     alt="" 
+                     width="2000" 
+                     height="550"
+                     layout="responsive"                   
+                      />
 
                     <div className={styles.links}>
                         <Link href={slide.dtSlider.button1Link.url}>

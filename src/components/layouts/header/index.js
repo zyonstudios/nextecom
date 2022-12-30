@@ -12,8 +12,10 @@ const Header = ({headerMenus, logo}) => {
     }
     return (
         <header className={styles.header}>
-            <Promobar />            
-            <Logo logo={logo}/>
+            <Promobar />
+            <div className={styles.midheader}>
+                <Logo logo={logo}/>
+            </div>           
             <Nav headerMenus={headerMenus}/>
         </header>
     )
