@@ -4,8 +4,8 @@ import Header from "./header";
 import Dtslide from "./slides/dtslide";
 
 
-const Layout = ({children, data, logo, slides}) => {
-    console.warn('logos',logo);
+const Layout = ({children, data, logo, slides}) => {  
+
   return (
     <>
         <Header headerMenus={data} logo={logo}/>
