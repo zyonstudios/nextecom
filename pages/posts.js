@@ -2,7 +2,7 @@ import { gql } from '@apollo/client'
 import React from 'react'
 import Postcard from '../src/components/Postcard'
 import { client } from '../src/apollo/apollo'
-import styles from '../styles/Posts.module.css'
+import styles from '../src/components/styles/Posts.module.css'
 
   
   const posts = ({posts}) => {
