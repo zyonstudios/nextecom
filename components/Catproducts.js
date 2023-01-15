@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react'
 import WooCommerceRestApi from '@woocommerce/woocommerce-rest-api'
 import Image from 'next/image';
 import styles from '../styles/Shop.module.css'
-import { paginate } from '../utils/paginate'
-import Pagination from './Pagination'
+// import { paginate } from '../utils/paginate'
+// import Pagination from './Pagination'
 import { useRouter } from 'next/router';
 
 
