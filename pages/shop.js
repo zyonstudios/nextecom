@@ -27,8 +27,7 @@ export default function Home() {
         per_page: 20,
       })
       .then((response) => {
-        if (response.status === 200) {
-          console.log(response.data);
+        if (response.status === 200) {         
           setProducts(response.data);
         }
       })

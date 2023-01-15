@@ -5,7 +5,7 @@ import { Inter } from '@next/font/google'
 import Header from '../components/Header/Header'
 import { GET_HEADER_QUERIES } from '../src/queries/header-queries'
 import { client } from '../src/apollo/apollo';
-import Homepagedesktopslider from '../components/Slides/homepagedesktopslider'
+import Homepagedesktopslider from '../components/Slides/Homepagedesktopslider'
 
 
 

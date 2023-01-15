@@ -2,8 +2,7 @@ import { isEmpty } from 'lodash';
 import styles from '../../styles/Navbar.module.css'
 
 
-const Navbar = ({headerMenus}) => {
-    console.warn('navmenus',headerMenus)
+const Navbar = ({headerMenus}) => {   
      if(isEmpty(headerMenus)){
          return null;
      }
