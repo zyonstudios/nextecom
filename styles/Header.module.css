@@ -1,0 +1,11 @@
+.headercontainer{  
+    background-color: aqua;
+}
+.headertoprow{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.headerbtmrow{
+    background-color: blueviolet;
+}

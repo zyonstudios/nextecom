@@ -1,0 +1,26 @@
+.navmenu{
+    background-color: beige;
+}
+.navmenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  
+  .navmenu li {
+    float: left;
+  }
+  
+  .navmenu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  .navmenu li a:hover {
+    background-color: #111111;
+  }

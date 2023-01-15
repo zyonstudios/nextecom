@@ -1,0 +1,17 @@
+.myposts{
+    width: 100vw;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.postcontainer{
+max-width: 80vw;
+margin: auto;
+text-align: center;
+}
+.postcontainer article{
+    max-width: 80vw;
+    margin: auto;
+    text-align: center;
+    }

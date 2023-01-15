@@ -1,0 +1,7 @@
+.navmenu{
+    background-color: rgb(92, 144, 189);
+    height: 50px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}

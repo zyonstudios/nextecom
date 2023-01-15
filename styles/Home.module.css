@@ -1,0 +1,12 @@
+.main {   
+ background-color: rgb(255, 127, 202);
+
+
+}
+.homedtslider{
+display: block;
+overflow: auto;
+}
+.newarrivals{
+background-color: aliceblue;
+}
